@@ -20,6 +20,7 @@ class StuffsCollection {
         allowedValues: ['excellent', 'good', 'fair', 'poor'],
         defaultValue: 'good',
       },
+      image: { type: String, optional: true },
     });
     // Attach the schema to the collection, so all attempts to insert a document are checked against schema.
     this.collection.attachSchema(this.schema);
