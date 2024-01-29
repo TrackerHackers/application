@@ -5,6 +5,7 @@ import { useTracker } from 'meteor/react-meteor-data';
 import { Stuffs } from '../../api/stuff/Stuff';
 import StuffItem from '../components/StuffItem';
 import LoadingSpinner from '../components/LoadingSpinner';
+import InventoryCard from '../components/InventoryCard';
 
 /* Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
 const ListStuff = () => {
@@ -44,6 +45,11 @@ const ListStuff = () => {
             </tbody>
           </Table>
         </Col>
+
+        <Row xs={1} md={2} lg={3} className="g-4 mt-1">
+          {stuffs.map((stuff) => (<Col key={stuff._id}><InventoryCard stuff={stuff} /></Col>))}
+        </Row>
+
       </Row>
     </Container>
   ) : <LoadingSpinner />);
