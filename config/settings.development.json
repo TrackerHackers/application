@@ -8,11 +8,14 @@
     { "name": "Basket", "quantity": 3, "owner": "john@foo.com", "condition": "excellent",
     "image":  "https://wallniture.com/cdn/shop/products/wall35_rivista_chn627_basket_bla_met_ofc_v1_2500x2500_9917cb18-bc33-4c5e-8ff5-d36a85a8b332_800x.jpg?v=1598540134"
     },
+
     { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "poor",
     "image": "https://www.yamahabicycles.com/globalassets/2023-march-product-launch/global-assets/homepage/moro07_se_hero_homepage_slider.jpg" },
+
     { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "good",
-    "image": "" },
+    "image": "https://hips.hearstapps.com/hmg-prod/images/bananas-royalty-free-image-1702061943.jpg" },
+
     { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent",
-    "image": "" }
+    "image": "https://thebeachgenie.com/cdn/shop/products/PB292489_2.jpg?v=1607019154" }
   ]
 }
