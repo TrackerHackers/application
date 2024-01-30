@@ -37,7 +37,7 @@ const ListStuffAdmin = () => {
               </tr>
             </thead>
             <tbody>
-            {stuffs.map((stuff) => <StuffItemAdmin key={stuff._id} stuff={stuff} />)}
+              {stuffs.map((stuff) => <StuffItemAdmin key={stuff._id} stuff={stuff} />)}
             </tbody>
           </Table>
         </Col>

@@ -39,4 +39,4 @@ be taken to the About page. Users who have previous accounts will be taken to th
 
 Up next Sienne will be handling modifying the About page to include more details.
 
-[![ci-meteor-application-template-react](https://github.com/TrackerHackers/application/actions/workflows/ci.yml/badge.svg)](https://github.com/TrackerHackers/application/actions/workflows/ci.yml)
+[![TrackerHackers application](https://github.com/TrackerHackers/application/actions/workflows/ci.yml/badge.svg)](https://github.com/TrackerHackers/application/actions/workflows/ci.yml)
