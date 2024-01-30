@@ -7,8 +7,9 @@ const InventoryCard = ({ item }) => (
     <Card.Img className="item-img" variant="top" src={item.image} style={{ height: '40vh' }} />
     <Card.Title className="px-3 text-center">{item.name}</Card.Title>
     <Card.Body>
+      <Card.Text className="mb-auto">Description: {item.description}</Card.Text>
       <Card.Text className="mb-auto">Quantity: {item.quantity}</Card.Text>
-      <Card.Text className="mb-auto">Condition: {item.condition}</Card.Text>
+      <Card.Text className="mb-auto">Condition: {item.rating}</Card.Text>
       <Card.Text className="mb-auto d-flex justify-content-center" style={{ marginTop: '10px' }}><a href={`/edit/${item._id}`}><Button variant="danger">Edit</Button></a></Card.Text>
     </Card.Body>
   </Card>
@@ -20,7 +21,8 @@ InventoryCard.propTypes = {
   item: PropTypes.shape({
     name: PropTypes.string,
     quantity: PropTypes.number,
-    condition: PropTypes.string,
+    description: PropTypes.string,
+    rating: PropTypes.string,
     image: PropTypes.string,
     _id: PropTypes.string,
   }).isRequired,
