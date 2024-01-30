@@ -20,6 +20,10 @@ const formSchema = new SimpleSchema({
     max: 120,
     optional: true,
   },
+  image: {
+    type: String,
+    optional: true,
+  },
   quantity: {
     type: Number,
     min: 0,
@@ -43,10 +47,10 @@ const AddStuff = () => {
 
   // On submit, insert the data.
   const submit = (data, formRef) => {
-    const { name, description, quantity, rating, notes } = data;
+    const { name, description, image, quantity, rating, notes } = data;
     const owner = Meteor.user().username;
     Stuffs.collection.insert(
-      { name, description, quantity, rating, notes, owner },
+      { name, description, image, quantity, rating, notes, owner },
       (error) => {
         if (error) {
           swal('Error', error.message, 'error');
@@ -70,6 +74,7 @@ const AddStuff = () => {
               <Card.Body>
                 <TextField name="name" />
                 <TextField name="description" />
+                <TextField name="image" />
                 <NumField name="quantity" decimal={null} />
                 <SelectField name="rating" />
                 <LongTextField name="notes" />
