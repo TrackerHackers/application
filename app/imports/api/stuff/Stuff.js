@@ -12,13 +12,34 @@ class StuffsCollection {
     this.collection = new Mongo.Collection(this.name);
     // Define the structure of each document in the collection.
     this.schema = new SimpleSchema({
-      name: String,
-      quantity: Number,
-      owner: String,
-      condition: {
+      name: {
         type: String,
-        allowedValues: ['excellent', 'good', 'fair', 'poor'],
-        defaultValue: 'good',
+        index: true,
+        unique: true,
+        max: 30,
+      },
+      description: {
+        type: String,
+        max: 120,
+        optional: true,
+      },
+      quantity: {
+        type: Number,
+        min: 0,
+        max: 100,
+      },
+      rating: {
+        type: String,
+        allowedValues: ['1-star', '2-star', '3-star', '4-star', '5-star'],
+        defaultValue: '3-star',
+      },
+      notes: {
+        type: String,
+        optional: true,
+      },
+      owner: {
+        type: String,
+        max: 20,
       },
       image: { type: String, optional: true },
     });
