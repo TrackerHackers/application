@@ -1,10 +1,10 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Col, Container, Row, Table } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useTracker } from 'meteor/react-meteor-data';
 import { Stuffs } from '../../api/stuff/Stuff';
-import StuffItem from '../components/StuffItem';
 import LoadingSpinner from '../components/LoadingSpinner';
+import InventoryCard from '../components/InventoryCard';
 
 /* Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
 const ListStuff = () => {
@@ -30,21 +30,12 @@ const ListStuff = () => {
           <Col className="text-center">
             <h2>Inventory</h2>
           </Col>
-          <Table striped bordered hover>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Quantity</th>
-                <th>Rating</th>
-                <th>Edit</th>
-              </tr>
-            </thead>
-            <tbody>
-              {stuffs.map((stuff) => <StuffItem key={stuff._id} stuff={stuff} />)}
-            </tbody>
-          </Table>
         </Col>
+
+        <Row xs={1} md={2} lg={3} className="g-4 mt-1">
+          {stuffs.map((item) => (<Col key={item._id}><InventoryCard item={item} /></Col>))}
+        </Row>
+
       </Row>
     </Container>
   ) : <LoadingSpinner />);
