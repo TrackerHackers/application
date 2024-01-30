@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import { AutoForm, ErrorsField, NumField, SelectField, SubmitField, TextField } from 'uniforms-bootstrap5';
+import { AutoForm, ErrorsField, LongTextField, NumField, SelectField, SubmitField, TextField } from 'uniforms-bootstrap5';
 import swal from 'sweetalert';
 import { Meteor } from 'meteor/meteor';
 import SimpleSchema2Bridge from 'uniforms-bridge-simple-schema-2';
@@ -9,12 +9,30 @@ import { Stuffs } from '../../api/stuff/Stuff';
 
 // Create a schema to specify the structure of the data to appear in the form.
 const formSchema = new SimpleSchema({
-  name: String,
-  quantity: Number,
-  condition: {
+  name: {
     type: String,
-    allowedValues: ['excellent', 'good', 'fair', 'poor'],
-    defaultValue: 'good',
+    index: true,
+    unique: true,
+    max: 30,
+  },
+  description: {
+    type: String,
+    max: 120,
+    optional: true,
+  },
+  quantity: {
+    type: Number,
+    min: 0,
+    max: 100,
+  },
+  rating: {
+    type: String,
+    allowedValues: ['1-star', '2-star', '3-star', '4-star', '5-star'],
+    defaultValue: '3-star',
+  },
+  notes: {
+    type: String,
+    optional: true,
   },
 });
 
@@ -25,10 +43,10 @@ const AddStuff = () => {
 
   // On submit, insert the data.
   const submit = (data, formRef) => {
-    const { name, quantity, condition } = data;
+    const { name, description, quantity, rating, notes } = data;
     const owner = Meteor.user().username;
     Stuffs.collection.insert(
-      { name, quantity, condition, owner },
+      { name, description, quantity, rating, notes, owner },
       (error) => {
         if (error) {
           swal('Error', error.message, 'error');
@@ -51,8 +69,10 @@ const AddStuff = () => {
             <Card>
               <Card.Body>
                 <TextField name="name" />
+                <TextField name="description" />
                 <NumField name="quantity" decimal={null} />
-                <SelectField name="condition" />
+                <SelectField name="rating" />
+                <LongTextField name="notes" />
                 <SubmitField value="Submit" />
                 <ErrorsField />
               </Card.Body>
