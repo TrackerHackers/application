@@ -22,6 +22,10 @@ Work Breakdown by Team Member
 
 * Lisa Cheng
 
+Lisa updated the View Inventory pages, presenting users' items in a Card format. Lisa also incorporated an Image field into the application, enabling users to upload images of their inventory for better management. Lisa modified the Add and Edit List pages to display this new field. 
+
+Up next Lisa will create a logo for the application and incorporate more visually satisfying designs. Lisa can also implement a redirect feature on the Add and Edit pages, so that after a user adds or edits an item, they will automatically be directed to the View Inventory page.
+
 * Lizyl Failano
 
 * Andrea Jans
