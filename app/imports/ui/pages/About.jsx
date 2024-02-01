@@ -30,19 +30,22 @@ const About = () => (
             Current Inventory
           </h3>
           <p className="text-black">
-            changeme
+            {/* eslint-disable-next-line max-len */}
+            Welcome to your Current Inventory page! Here, you can view all the items currently tracked by TrackMyStuff! The table below displays essential information about each item, including its name, quantity, location, and more. Use the search and filter options to quickly find specific items, or scroll through the list to browse your entire inventory.
           </p>
           <h3 className="py-2">
             Add An Item
           </h3>
           <p className="text-black">
-            changeme
+            {/* eslint-disable-next-line max-len,react/no-unescaped-entities */}
+            Ready to add a new item to your inventory? You're in the right place! Fill out the form below with details about the item you'd like to add, including its name, category, quantity, location, and any additional notes. Once you've provided all the necessary information, click the "Add Item" button to include it in your inventory. Keep your inventory organized and up-to-date with TrackMyStuff!
           </p>
           <h3 className="py-2">
             Edit Inventory
           </h3>
           <p className="text-black">
-            changeme
+            {/* eslint-disable-next-line max-len,react/no-unescaped-entities */}
+            Need to make changes to an existing item in your inventory? No problem! Simply select the item you'd like to edit from the list below, and you'll be able to modify its details as needed. Update the item's name, category, quantity, location, or any other relevant information, and then click the "Save Changes" button to update your inventory. With TrackMyStuff!, managing your inventory has never been easier.
           </p>
         </Row>
       </Container>
