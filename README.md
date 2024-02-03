@@ -28,6 +28,10 @@ Up next Lisa will create a logo for the application and incorporate more visuall
 
 * Lizyl Failano
 
+Lizyl made some modifications to the Landing Page. These changes include incorporating pictures showcasing the key features, such as adding, editing, and viewing inventory. Additionally, she introduced prominent sign-in and sign-up buttons to enhance user accessibility. In the About Page, Lizyl expanded upon the description, providing more detailed information. Furthermore, she made slight adjustments to the style.css to improve the overall aesthetic. 
+
+Up next Lizyl will involve further modifications to the landing page and style.
+
 * Andrea Jans
 
 Andrea updated the MongoDB Collection with the fields the application needs to track for each item. Andrea also modified the Add, Edit, List and Admin List pages to display those new fields. Andrea updated the build status badge in the README.md file
