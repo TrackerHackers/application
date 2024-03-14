@@ -107,22 +107,30 @@ In the future the TrackMyStuff! Application will:
 
 ## Lisa Cheng 
 [Github]() //add github profile link here 
+
 [LinkedIn]() //add LinkedIn profile link here 
+
 [Professional Portfolio]() //add professional portfolio link here 
 
 ## Lizyl Failano 
 [Github]() //add github profile link here 
+
 [LinkedIn]() //add LinkedIn profile link here 
+
 [Professional Portfolio]() //add professional portfolio link here 
 
 ## Andrea Jans 
 [Github]() //add github profile link here 
+
 [LinkedIn]() //add LinkedIn profile link here 
+
 [Professional Portfolio]() //add professional portfolio link here 
 
 ## Sienne Rodwell 
 [Github](https://github.com/SienneR) 
+
 [LinkedIn](https://www.linkedin.com/in/sienne-rodwell/) 
+
 [Professional Portfolio](https://sienner.github.io) 
 
 # Links to Our Materials 
