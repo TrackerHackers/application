@@ -93,7 +93,7 @@ In phase two of application development, the following improvements were made
 
 In this phase, Sienne modified the card style for the view inventory page to provide a more enjoyable user experience. Sienne also removed the image field from the card, which was a design choice made by the team. Sienne made the corresponding modifications in the Add Inventory and Edit Inventory pages to remove image fields. Additionally, Sienne modified the styling of the Navigation Bar and Footer to have less contrast 
 
-Currently, Sienne continues to navigate design needs for the application. She will continue to do so through the next phase, making any necessary improvements to the user interface. 
+Currently, Sienne is navigating various design needs for the application. She will continue to do so through the next phase, making any necessary improvements to the user interface and implementing security procedures as necessary. 
 
 ## Future Plans
 
@@ -121,9 +121,9 @@ In the future the TrackMyStuff! Application will:
 [Professional Portfolio]() //add professional portfolio link here 
 
 ## Sienne Rodwell 
-[Github](https://github.com/SienneR) //add github profile link here 
-[LinkedIn](https://www.linkedin.com/in/sienne-rodwell/) //add LinkedIn profile link here 
-[Professional Portfolio](https://sienner.github.io) //add professional portfolio link here 
+[Github](https://github.com/SienneR) 
+[LinkedIn](https://www.linkedin.com/in/sienne-rodwell/) 
+[Professional Portfolio](https://sienner.github.io) 
 
 # Links to Our Materials 
 
