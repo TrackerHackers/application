@@ -136,10 +136,15 @@ In the future the TrackMyStuff! Application will:
 # Links to Our Materials 
 
 [Main Branch of Repository](https://github.com/TrackerHackers/application)
+
 [Application Document](https://docs.google.com/document/d/1saC6QGrdUEQv1wSCf__P5w3YoyzN5x74XjpLNpQT2tU/edit?usp=sharing)
+
 [TestCafe - Static Analysis](https://testcafe.io)
+
 [ES-Lint - Static Analysis](https://eslint.org)
+
 [Snyk - Static Analysis](https://snyk.io)
+
 [Burp - Dynamic Analysis](https://portswigger.net/burp)
 
 ## Contiguous Integration Badge
