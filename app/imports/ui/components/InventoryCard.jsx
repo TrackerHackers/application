@@ -9,6 +9,7 @@ const InventoryCard = ({ item }) => (
     <Card.Body>
       <Card.Text className="mb-auto">Description: {item.description}</Card.Text>
       <Card.Text className="mb-auto">Condition: {item.rating}</Card.Text>
+      <Card.Text className="mb-auto">Notes: {item.notes ? item.notes : 'N/A'}</Card.Text>
       <Card.Text className="mb-auto d-flex justify-content-center" style={{ marginTop: '10px' }}><a href={`/edit/${item._id}`}><Button variant="primary">Edit</Button></a></Card.Text>
     </Card.Body>
   </Card>
@@ -22,7 +23,7 @@ InventoryCard.propTypes = {
     quantity: PropTypes.number,
     description: PropTypes.string,
     rating: PropTypes.string,
-    image: PropTypes.string,
+    notes: PropTypes.string,
     _id: PropTypes.string,
   }).isRequired,
 };
