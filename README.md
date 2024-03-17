@@ -91,7 +91,7 @@ In this phase, Lisa added a redirection feature such that upon submitting the Ed
 
 ### Sienne Rodwell 
 
-In this phase, Sienne modified the card style for the view inventory page to provide a more enjoyable user experience. Sienne also removed the image field from the card, which was a design choice made by the team. Sienne made the corresponding modifications in the Add Inventory and Edit Inventory pages to remove image fields. Additionally, Sienne modified the styling of the Navigation Bar and Footer to have less contrast 
+In this phase, Sienne modified the card style for the view inventory page to provide a more enjoyable user experience. Sienne also removed the image field from the card, which was a design choice made by the team. Sienne made the corresponding modifications in the Add Inventory and Edit Inventory pages to remove image fields. Additionally, Sienne modified the styling of the Navigation Bar and Footer to have less contrast. 
 
 Currently, Sienne is navigating various design needs for the application. She will continue to do so through the next phase, making any necessary improvements to the user interface and implementing security procedures as necessary. 
 
