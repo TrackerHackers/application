@@ -15,7 +15,7 @@ const ListStuffAdmin = () => {
     // Determine if the subscription is ready
     const rdy = subscription.ready();
     // Get the Stuff documents
-    const items = Stuffs.collection.find({}).fetch();
+    const items = Stuffs.collection.find({}, { sort: { owner: 1, name: 1 } }).fetch();
     return {
       stuffs: items,
       ready: rdy,
