@@ -81,6 +81,8 @@ In phase two of application development, the following improvements were made
 
 In this phase, Lisa added a redirection feature such that upon submitting the Edit Inventory form, users are automatically redirected to the View Inventory page. Lisa also modified the card for the View Inventory page to include the Notes section, and to have it displayed N/A if no notes are added. Lisa also added a sorting functionality to the View Inventory and List Inventory (Admin) pages. Now, the items are alphabetically organized, to improve the user experience for managing office inventory. 
 
+Currently, Lisa will work on improving the user experience for the application. She will continue to do so through the next phase, along with updating the screenshots on the landing page. 
+
 ### Lizyl Failano
 
 //Lizyl add phase two contributions here
