@@ -110,7 +110,7 @@ In the future the TrackMyStuff! Application will:
 ## Lisa Cheng 
 [Github](https://github.com/chenglisa) 
 
-[LinkedIn](www.linkedin.com/in/cheng-lisals) 
+[LinkedIn](https://www.linkedin.com/in/cheng-lisals) 
 
 [Professional Portfolio](https://chenglisa.github.io/) 
 
