@@ -17,7 +17,7 @@ const ListStuff = () => {
     // Determine if the subscription is ready
     const rdy = subscription.ready();
     // Get the Stuff documents
-    const stuffItems = Stuffs.collection.find({}).fetch();
+    const stuffItems = Stuffs.collection.find({}, { sort: { name: 1 } }).fetch();
     return {
       stuffs: stuffItems,
       ready: rdy,

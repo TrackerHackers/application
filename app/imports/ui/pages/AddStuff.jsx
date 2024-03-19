@@ -74,7 +74,6 @@ const AddStuff = () => {
               <Card.Body>
                 <TextField name="name" />
                 <TextField name="description" />
-                <TextField name="image" />
                 <NumField name="quantity" decimal={null} />
                 <SelectField name="rating" />
                 <LongTextField name="notes" />

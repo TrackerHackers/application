@@ -15,7 +15,7 @@ const ListStuffAdmin = () => {
     // Determine if the subscription is ready
     const rdy = subscription.ready();
     // Get the Stuff documents
-    const items = Stuffs.collection.find({}).fetch();
+    const items = Stuffs.collection.find({}, { sort: { owner: 1, name: 1 } }).fetch();
     return {
       stuffs: items,
       ready: rdy,
@@ -25,7 +25,7 @@ const ListStuffAdmin = () => {
     <Container className="py-3">
       <Row className="justify-content-center">
         <Col md={7}>
-          <Col className="text-center"><h2>List Stuff (Admin)</h2></Col>
+          <Col className="text-center"><h2>List Inventory (Admin)</h2></Col>
           <Table striped bordered hover>
             <thead>
               <tr>
