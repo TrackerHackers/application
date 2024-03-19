@@ -4,13 +4,13 @@ import { Card, Button } from 'react-bootstrap';
 
 const InventoryCard = ({ item }) => (
   <Card style={{ width: '18rem' }} className="h-100 m-auto">
-    <Card.Img className="item-img" variant="top" src={item.image} style={{ height: '40vh' }} />
-    <Card.Title className="px-3 text-center">{item.name}</Card.Title>
+    <Card.Title className="px-3 text-center" style={{ marginTop: '10px' }}>{item.name}</Card.Title>
+    <Card.Subtitle className="card-subtitle mb-2 text-muted" style={{ marginLeft: '15px', marginTop: '10px' }}>Quantity: {item.quantity}</Card.Subtitle>
     <Card.Body>
       <Card.Text className="mb-auto">Description: {item.description}</Card.Text>
-      <Card.Text className="mb-auto">Quantity: {item.quantity}</Card.Text>
       <Card.Text className="mb-auto">Condition: {item.rating}</Card.Text>
-      <Card.Text className="mb-auto d-flex justify-content-center" style={{ marginTop: '10px' }}><a href={`/edit/${item._id}`}><Button variant="danger">Edit</Button></a></Card.Text>
+      <Card.Text className="mb-auto">Notes: {item.notes ? item.notes : 'N/A'}</Card.Text>
+      <Card.Text className="mb-auto d-flex justify-content-center" style={{ marginTop: '10px' }}><a href={`/edit/${item._id}`}><Button variant="primary">Edit</Button></a></Card.Text>
     </Card.Body>
   </Card>
 
@@ -23,7 +23,7 @@ InventoryCard.propTypes = {
     quantity: PropTypes.number,
     description: PropTypes.string,
     rating: PropTypes.string,
-    image: PropTypes.string,
+    notes: PropTypes.string,
     _id: PropTypes.string,
   }).isRequired,
 };

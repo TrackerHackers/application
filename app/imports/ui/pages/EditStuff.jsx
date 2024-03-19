@@ -5,7 +5,7 @@ import { AutoForm, ErrorsField, HiddenField, LongTextField, NumField, SelectFiel
 import { Meteor } from 'meteor/meteor';
 import { useTracker } from 'meteor/react-meteor-data';
 import SimpleSchema2Bridge from 'uniforms-bridge-simple-schema-2';
-import { useParams } from 'react-router';
+import { useParams, useNavigate } from 'react-router';
 import { Stuffs } from '../../api/stuff/Stuff';
 import LoadingSpinner from '../components/LoadingSpinner';
 
@@ -15,6 +15,7 @@ const bridge = new SimpleSchema2Bridge(Stuffs.schema);
 const EditStuff = () => {
   // Get the documentID from the URL field. See imports/ui/layouts/App.jsx for the route containing :_id.
   const { _id } = useParams();
+  const navigate = useNavigate();
   // console.log('EditStuff', _id);
   // useTracker connects Meteor data to React components. https://guide.meteor.com/react.html#using-withTracker
   const { doc, ready } = useTracker(() => {
@@ -33,22 +34,26 @@ const EditStuff = () => {
   // On successful submit, insert the data.
   const submit = (data) => {
     const { name, description, quantity, rating, notes, owner } = data;
-    Stuffs.collection.update(_id, { $set: { name, description, quantity, rating, notes, owner } }, (error) => (error ?
-      swal('Error', error.message, 'error') :
-      swal('Success', 'Item updated successfully', 'success')));
+    Stuffs.collection.update(_id, { $set: { name, description, quantity, rating, notes, owner } }, (error) => {
+      if (error) {
+        swal('Error', error.message, 'error');
+      } else {
+        swal('Success', 'Item updated successfully', 'success');
+        navigate('/list');
+      }
+    });
   };
 
   return ready ? (
     <Container className="py-3">
       <Row className="justify-content-center">
         <Col xs={5}>
-          <Col className="text-center"><h2>Edit Stuff</h2></Col>
+          <Col className="text-center"><h2>Edit Inventory</h2></Col>
           <AutoForm schema={bridge} onSubmit={data => submit(data)} model={doc}>
             <Card>
               <Card.Body>
                 <TextField name="name" />
                 <TextField name="description" />
-                <TextField name="image" />
                 <NumField name="quantity" decimal={null} />
                 <SelectField name="rating" />
                 <LongTextField name="notes" />

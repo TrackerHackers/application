@@ -31,7 +31,7 @@ const About = () => (
           </h3>
           <p className="text-black">
             {/* eslint-disable-next-line max-len */}
-            Welcome to your Current Inventory page! Here, you can view all the items currently tracked by TrackMyStuff! The table below displays essential information about each item, including its name, quantity, location, and more. Use the search and filter options to quickly find specific items, or scroll through the list to browse your entire inventory.
+            Welcome to your Current Inventory page! Here, you can view all the items currently tracked by TrackMyStuff! The table below displays essential information about each item, including its name, quantity, location, and more.
           </p>
           <h3 className="py-2">
             Add An Item
