@@ -1,7 +1,7 @@
 import React from 'react';
 import swal from 'sweetalert';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import { AutoForm, ErrorsField, HiddenField, LongTextField, NumField, SelectField, SubmitField, TextField } from 'uniforms-bootstrap5';
+import { AutoForm, LongTextField, NumField, SelectField, SubmitField, TextField } from 'uniforms-bootstrap5';
 import { Meteor } from 'meteor/meteor';
 import { useTracker } from 'meteor/react-meteor-data';
 import SimpleSchema2Bridge from 'uniforms-bridge-simple-schema-2';
@@ -12,7 +12,7 @@ import LoadingSpinner from '../components/LoadingSpinner';
 const bridge = new SimpleSchema2Bridge(Stuffs.schema);
 
 /* Renders the EditStuff page for editing a single document. */
-const EditStuff = () => {
+const DeleteStuff = () => {
   // Get the documentID from the URL field. See imports/ui/layouts/App.jsx for the route containing :_id.
   const { _id } = useParams();
   const navigate = useNavigate();
@@ -33,12 +33,12 @@ const EditStuff = () => {
   // console.log('EditStuff', doc, ready);
   // On successful submit, insert the data.
   const submit = (data) => {
-    const { name, description, quantity, rating, notes, owner } = data;
-    Stuffs.collection.update(_id, { $set: { name, description, quantity, rating, notes, owner } }, (error) => {
+    const { name } = data;
+    Stuffs.collection.remove(_id, (error) => {
       if (error) {
         swal('Error', error.message, 'error');
       } else {
-        swal('Success', `${name} updated successfully`, 'success');
+        swal('Success', `${name} deleted successfully`, 'success');
         navigate('/list');
       }
     });
@@ -48,18 +48,16 @@ const EditStuff = () => {
     <Container className="py-3">
       <Row className="justify-content-center">
         <Col xs={5}>
-          <Col className="text-center"><h2>Edit Inventory</h2></Col>
+          <Col className="text-center"><h2>Delete Inventory</h2></Col>
           <AutoForm schema={bridge} onSubmit={data => submit(data)} model={doc}>
             <Card>
               <Card.Body>
-                <TextField name="name" />
-                <TextField name="description" />
-                <NumField name="quantity" decimal={null} />
-                <SelectField name="rating" />
-                <LongTextField name="notes" />
-                <SubmitField value="Submit" />
-                <ErrorsField />
-                <HiddenField name="owner" />
+                <TextField disabled name="name" />
+                <TextField disabled name="description" />
+                <NumField disabled name="quantity" decimal={null} />
+                <SelectField disabled name="rating" />
+                <LongTextField disabled name="notes" />
+                <SubmitField value="Delete" />
               </Card.Body>
             </Card>
           </AutoForm>
@@ -69,4 +67,4 @@ const EditStuff = () => {
   ) : <LoadingSpinner />;
 };
 
-export default EditStuff;
+export default DeleteStuff;

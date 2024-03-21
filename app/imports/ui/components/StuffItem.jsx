@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { PencilFill, TrashFill } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
@@ -10,7 +11,10 @@ const StuffItem = ({ stuff }) => (
     <td>{stuff.quantity}</td>
     <td>{stuff.rating}</td>
     <td>
-      <Link to={`/edit/${stuff._id}`}>Edit</Link>
+      <Link aria-label="Edit" to={`/edit/${stuff._id}`}><PencilFill /></Link>
+    </td>
+    <td>
+      <Link aria-label="Delete" to={`/delete/${stuff._id}`}><TrashFill /></Link>
     </td>
   </tr>
 );

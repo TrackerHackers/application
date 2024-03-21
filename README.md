@@ -122,11 +122,11 @@ In the future the TrackMyStuff! Application will:
 [Professional Portfolio]() //add professional portfolio link here 
 
 ## Andrea Jans 
-[Github]() //add github profile link here 
+[Github](https://github.com/awjans) 
 
-[LinkedIn]() //add LinkedIn profile link here 
+[LinkedIn](https://www.linkedin.com/in/andreawjans) 
 
-[Professional Portfolio]() //add professional portfolio link here 
+[Professional Portfolio](https://awjans.github.io) 
 
 ## Sienne Rodwell 
 [Github](https://github.com/SienneR) 
