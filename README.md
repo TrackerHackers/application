@@ -1,17 +1,18 @@
+# Table of Contents
 
-# Table of Contents 
-
-* [Summary](#summary)
+* [Summary](#Summary)
 * [Phase One](#phase-one)
 * [Phase Two](#phase-two)
 * [Meet the Team](#meet-the-tracker-hackers-team)
 * [Materials Links](#links-to-our-materials)
 
+# Summary
 
-# Summary 
-TrackMyStuff! is a one stop business solution for managing office inventory. Using secure development practices and rigorous security implementations, TrackMyStuff! makes sure your data is always secure. Never find yourself blindsided by running out of materials again!
+TrackMyStuff! is a one stop business solution for managing office inventory. Using secure development practices and rigorous security implementations, TrackMyStuff! makes sure your data is always secure. Never find yourself blindsided by running out
+of materials again!
 
 ## Comprehensive Application Functionality and Features
+
 * allows users to log in
 * allows users to create accounts
 * allows users to add inventory
@@ -36,17 +37,20 @@ In phase one of application implementation, the following functionality and feat
 * allows users to delete inventory from view inventory page instead of editing inventory values
 * Once inventory is edited, the site will reroute you to the view inventory page
 
-## Work Breakdown by Team Member 
+## Work Breakdown by Team Member
 
 ### Lisa Cheng
 
-Lisa updated the View Inventory pages, presenting users' items in a Card format. Lisa also incorporated an Image field into the application, enabling users to upload images of their inventory for better management. Lisa modified the Add and Edit List pages to display this new field. 
+Lisa updated the View Inventory pages, presenting users' items in a Card format. Lisa also incorporated an Image field into the application, enabling users to upload images of their inventory for better management. Lisa modified the Add and Edit List
+pages to display this new field.
 
-Up next Lisa will create a logo for the application and incorporate more visually satisfying designs. Lisa can also implement a redirect feature on the Add and Edit pages, so that after a user adds or edits an item, they will automatically be directed to the View Inventory page.
+Up next Lisa will create a logo for the application and incorporate more visually satisfying designs. Lisa can also implement a redirect feature on the Add and Edit pages, so that after a user adds or edits an item, they will automatically be
+directed to the View Inventory page.
 
 ### Lizyl Failano
 
-Lizyl made some modifications to the Landing Page. These changes include incorporating pictures showcasing the key features, such as adding, editing, and viewing inventory. Additionally, she introduced prominent sign-in and sign-up buttons to enhance user accessibility. In the About Page, Lizyl expanded upon the description, providing more detailed information. Furthermore, she made slight adjustments to the style.css to improve the overall aesthetic. 
+Lizyl made some modifications to the Landing Page. These changes include incorporating pictures showcasing the key features, such as adding, editing, and viewing inventory. Additionally, she introduced prominent sign-in and sign-up buttons to enhance
+user accessibility. In the About Page, Lizyl expanded upon the description, providing more detailed information. Furthermore, she made slight adjustments to the style.css to improve the overall aesthetic.
 
 Up next Lizyl will involve further modifications to the landing page and style.
 
@@ -55,14 +59,15 @@ Up next Lizyl will involve further modifications to the landing page and style.
 Andrea updated the MongoDB Collection with the fields the application needs to track for each item. Andrea also modified the Add, Edit, List and Admin List pages to display those new fields. Andrea updated the build status badge in the README.md file
 to reflect the current status of the application.
 
-Up next Andrea will be handling the delete functionality. Also, Andrea will be investigating how MongoDB recommends handling injection attacks. In that vein, Andrea will be investigating how to protect against url hijacking in the routing, where a user copies or modifies the url to access a page they should not be able to access.
+Up next Andrea will be handling the delete functionality. Also, Andrea will be investigating how MongoDB recommends handling injection attacks. In that vein, Andrea will be investigating how to protect against url hijacking in the routing, where a
+user copies or modifies the url to access a page they should not be able to access.
 
-### Sienne Rodwell 
+### Sienne Rodwell
 
 Sienne created the landing page and about pages. Sienne also modified the routing of the pages such that the About page is accessible for users who are both logged in and not logged in. Users who are creating an account for the first time will
 be taken to the About page. Users who have previous accounts will be taken to their View Inventory page.
 
-Up next Sienne will be handling modifying the About page to include more details. She will also handle modifications needed to current design. 
+Up next Sienne will be handling modifying the About page to include more details. She will also handle modifications needed to current design.
 
 # Phase Two
 
@@ -75,13 +80,15 @@ In phase two of application development, the following improvements were made
 * Remove image link field from inventory objects in edit, add, and view inventory pages
 * Once inventory is edited, the site will reroute you to the view inventory page
 
-## Work Breakdown by Team Member 
+## Work Breakdown by Team Member
 
 ### Lisa Cheng
 
-In this phase, Lisa added a redirection feature such that upon submitting the Edit Inventory form, users are automatically redirected to the View Inventory page. Lisa also modified the card for the View Inventory page to include the Notes section, and to have it displayed N/A if no notes are added. Lisa also added a sorting functionality to the View Inventory and List Inventory (Admin) pages. Now, the items are alphabetically organized, to improve the user experience for managing office inventory. 
+In this phase, Lisa added a redirection feature such that upon submitting the Edit Inventory form, users are automatically redirected to the View Inventory page. Lisa also modified the card for the View Inventory page to include the Notes section,
+and to have it displayed N/A if no notes are added. Lisa also added a sorting functionality to the View Inventory and List Inventory (Admin) pages. Now, the items are alphabetically organized, to improve the user experience for managing office
+inventory.
 
-Currently, Lisa will work on improving the user experience and security for the application. She will continue to do so through the next phase, along with updating the screenshots on the landing page. 
+Currently, Lisa will work on improving the user experience and security for the application. She will continue to do so through the next phase, along with updating the screenshots on the landing page.
 
 ### Lizyl Failano
 
@@ -89,13 +96,20 @@ Currently, Lisa will work on improving the user experience and security for the 
 
 ### Andrea Jans
 
-//Andrea add phase two contributions here
+In this phase, Andrea added a delete functionality to the application. Users can now delete items from the View Inventory and Admin pages. This also involved updating the MongoDB Collection to remove the deleted item. Icons are now used for the Edit
+and Delete buttons to improve the user experience. The routing table was updated to allow the delete functionality to work. Andrea found an article titled
+[How to prevent injection attacks in MongoDB](https://www.slingacademy.com/article/how-to-prevent-injection-attacks-in-mongodb-with-examples/) and another titled
+[How to secure your Meteor app](https://guide.meteor.com/security).
 
-### Sienne Rodwell 
+Currently, Andrea is implementing the recommendations for how to handle injection attacks in MongoDB. Andrea is also be implementing the recommendations for how to protect against url hijacking in the routing, where a user copies or modifies the url
+to access a page they should not be able to access. Andrea will also be adding test cases to the application to ensure that the delete functionality works as expected.
 
-In this phase, Sienne modified the card style for the view inventory page to provide a more enjoyable user experience. Sienne also removed the image field from the card, which was a design choice made by the team. Sienne made the corresponding modifications in the Add Inventory and Edit Inventory pages to remove image fields. Additionally, Sienne modified the styling of the Navigation Bar and Footer to have less contrast. 
+### Sienne Rodwell
 
-Currently, Sienne is navigating various design needs for the application. She will continue to do so through the next phase, making any necessary improvements to the user interface and implementing security procedures as necessary. 
+In this phase, Sienne modified the card style for the view inventory page to provide a more enjoyable user experience. Sienne also removed the image field from the card, which was a design choice made by the team. Sienne made the corresponding
+modifications in the Add Inventory and Edit Inventory pages to remove image fields. Additionally, Sienne modified the styling of the Navigation Bar and Footer to have less contrast.
+
+Currently, Sienne is navigating various design needs for the application. She will continue to do so through the next phase, making any necessary improvements to the user interface and implementing security procedures as necessary.
 
 ## Future Plans
 
@@ -103,39 +117,44 @@ In the future the TrackMyStuff! Application will:
 
 * Include more comprehensive testing documents and processes
 * Protect against injection attacks in forms
+* Protect against url hijacking in the routing
 * Include modifications for ease of use and appealing design
 
-# Meet the Tracker Hackers Team 
+# Meet the Tracker Hackers Team
 
-## Lisa Cheng 
-[Github](https://github.com/chenglisa) 
+## Lisa Cheng
 
-[LinkedIn](https://www.linkedin.com/in/cheng-lisals) 
+[Github](https://github.com/chenglisa)
 
-[Professional Portfolio](https://chenglisa.github.io/) 
+[LinkedIn](https://www.linkedin.com/in/cheng-lisals)
 
-## Lizyl Failano 
-[Github]() //add github profile link here 
+[Professional Portfolio](https://chenglisa.github.io/)
 
-[LinkedIn]() //add LinkedIn profile link here 
+## Lizyl Failano
 
-[Professional Portfolio]() //add professional portfolio link here 
+[Github]() //add github profile link here
 
-## Andrea Jans 
-[Github](https://github.com/awjans) 
+[LinkedIn]() //add LinkedIn profile link here
 
-[LinkedIn](https://www.linkedin.com/in/andreawjans) 
+[Professional Portfolio]() //add professional portfolio link here
 
-[Professional Portfolio](https://awjans.github.io) 
+## Andrea Jans
 
-## Sienne Rodwell 
-[Github](https://github.com/SienneR) 
+[Github](https://github.com/awjans)
 
-[LinkedIn](https://www.linkedin.com/in/sienne-rodwell/) 
+[LinkedIn](https://www.linkedin.com/in/andreawjans)
 
-[Professional Portfolio](https://sienner.github.io) 
+[Professional Portfolio](https://awjans.github.io)
 
-# Links to Our Materials 
+## Sienne Rodwell
+
+[Github](https://github.com/SienneR)
+
+[LinkedIn](https://www.linkedin.com/in/sienne-rodwell/)
+
+[Professional Portfolio](https://sienner.github.io)
+
+# Links to Our Materials
 
 [Main Branch of Repository](https://github.com/TrackerHackers/application)
 
@@ -150,4 +169,5 @@ In the future the TrackMyStuff! Application will:
 [Burp - Dynamic Analysis](https://portswigger.net/burp)
 
 ## Contiguous Integration Badge
+
 [![TrackerHackers application](https://github.com/TrackerHackers/application/actions/workflows/ci.yml/badge.svg)](https://github.com/TrackerHackers/application/actions/workflows/ci.yml)
