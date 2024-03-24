@@ -85,7 +85,9 @@ Currently, Lisa will work on improving the user experience and security for the 
 
 ### Lizyl Failano
 
-//Lizyl add phase two contributions here
+In this phase, Lizyl created the group logo, incorporating elements that reflect the team's essence and identity.
+
+Additionally, Lizyl is reviewing and refining previous report sections to reflect the latest updates and implementations. She examines each section and makes necessary edits to accurately portray the project's current status. Lizyl ensures the reports are up-to-date and provides stakeholders with a comprehensive understanding of the project's progress.
 
 ### Andrea Jans
 
@@ -115,11 +117,11 @@ In the future the TrackMyStuff! Application will:
 [Professional Portfolio](https://chenglisa.github.io/) 
 
 ## Lizyl Failano 
-[Github]() //add github profile link here 
+[Github](https://github.com/lizylf)
 
-[LinkedIn]() //add LinkedIn profile link here 
+[LinkedIn](https://www.linkedin.com/in/lizyl-failano-33aa29289/)
 
-[Professional Portfolio]() //add professional portfolio link here 
+[Professional Portfolio](https://lizylf.github.io/)
 
 ## Andrea Jans 
 [Github]() //add github profile link here 
