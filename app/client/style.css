@@ -3,26 +3,29 @@
 
 /* Set up some CSS variables to theme the application. */
 :root {
-  --matr-navbar-bg: #ECECEC;
-  --matr-navbar-bg-rgb: 236, 236, 236;
+  --matr-navbar-bg: #222831;
+  --matr-navbar-font: black;
+  --matr-border-color: #76ABAE;
+  --matr-body-bg: #EEEEEE;
 }
 
 /* Change bootstrap variable values.
  See https://getbootstrap.com/docs/5.2/customize/css-variables/
  */
 body {
-  --bs-light-rgb: var(--matr-navbar-bg-rgb);
+  --bs-light: var(--matr-navbar-font);
 }
 
 /* Set the alert background on the signin and signup pages. */
-#signin-page .alert-light, #signup-page .alert-light {
+#signin-page .alert-light,
+#signup-page .alert-light {
   --bs-alert-bg: var(--matr-navbar-bg);
 }
 
 /* Define custom styles */
-.gray-background {
+.black-background {
   background-color: var(--matr-navbar-bg);
-  color: var(--bs-dark);
+  color: black;
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -30,8 +33,9 @@ body {
 .item-img {
   object-fit: cover;
 }
+
 nav::after {
-  border-bottom: 8px solid darkgrey;
+  border-bottom: 8px solid #76ABAE;
   content: '';
   position: absolute;
   left: 0;
@@ -42,6 +46,9 @@ nav::after {
 }
 
 footer {
-  border-top: 8px solid darkgray;
+  border-top: 8px solid var(--matr-border-color);
+}
 
+body {
+  background-color: var(--matr-body-bg);
 }
