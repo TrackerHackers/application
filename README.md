@@ -8,7 +8,7 @@
 
 # Summary
 
-![TrackMyStuff! Logo](../img/logo2.png)
+![TrackMyStuff! Logo](../images/logo2.png)
 
 TrackMyStuff! is a one stop business solution for managing office inventory. Using secure development practices and rigorous security implementations, TrackMyStuff! makes sure your data is always secure. Never find yourself blindsided by running out of materials again!
 
