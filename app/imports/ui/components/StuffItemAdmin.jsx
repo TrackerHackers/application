@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { PencilFill, TrashFill } from 'react-bootstrap-icons';
+import { Link } from 'react-router-dom';
 
 /** Renders a single row in the List Stuff (Admin) table. See pages/ListStuffAdmin.jsx. */
 const StuffItemAdmin = ({ stuff }) => (
@@ -9,6 +11,12 @@ const StuffItemAdmin = ({ stuff }) => (
     <td>{stuff.quantity}</td>
     <td>{stuff.rating}</td>
     <td>{stuff.owner}</td>
+    <td>
+      <Link aria-label="Edit" to={`/edit/${stuff._id}`}><PencilFill /></Link>
+    </td>
+    <td>
+      <Link aria-label="Delete" to={`/delete/${stuff._id}`}><TrashFill /></Link>
+    </td>
   </tr>
 );
 
