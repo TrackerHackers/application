@@ -1,5 +1,4 @@
-<img width="750px" class="rounded float-start pe-4" src="../img/trackerhackers.png">
-# Table of Contents 
+# Table of Contents
 
 * [Summary](#summary)
 * [Phase One](#phase-one)
@@ -9,7 +8,9 @@
 
 
 # Summary
-<img width="750px" class="rounded float-start pe-4" src="../img/logo2.png">
+
+![TrackMyStuff! Logo](../img/logo2.png)
+
 TrackMyStuff! is a one stop business solution for managing office inventory. Using secure development practices and rigorous security implementations, TrackMyStuff! makes sure your data is always secure. Never find yourself blindsided by running out of materials again!
 
 ## Comprehensive Application Functionality and Features

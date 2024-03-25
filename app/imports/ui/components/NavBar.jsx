@@ -16,7 +16,7 @@ const NavBar = () => {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand as={NavLink} to="/">
-          <span style={{ fontWeight: 500, fontSize: '24px' }}><Image src="/images/logo2.png" width={100} style={{ marginBottom: 3 }} /> TrackMyStuff!</span>
+          <span style={{ fontWeight: 800, fontSize: '24px' }}><Image src="/images/logo2.png" width={75} style={{ marginBottom: 3 }} /> TrackMyStuff!</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
