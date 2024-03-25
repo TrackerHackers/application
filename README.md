@@ -10,7 +10,8 @@
 
 ![TrackMyStuff! Logo](./app/public/images/logo2.png)
 
-TrackMyStuff! is a one stop business solution for managing office inventory. Using secure development practices and rigorous security implementations, TrackMyStuff! makes sure your data is always secure. Never find yourself blindsided by running out of materials again!
+TrackMyStuff! is a one stop business solution for managing office inventory. Using secure development practices and rigorous security implementations, TrackMyStuff! makes sure your data is always secure. Never find yourself blindsided by running out
+of materials again!
 
 ## Comprehensive Application Functionality and Features
 
@@ -95,7 +96,8 @@ Currently, Lisa will work on improving the user experience and security for the 
 
 In this phase, Lizyl created the group logo, incorporating elements that reflect the team's essence and identity.
 
-Additionally, Lizyl is reviewing and refining previous report sections to reflect the latest updates and implementations. She examines each section and makes necessary edits to accurately portray the project's current status. Lizyl ensures the reports are up-to-date and provides stakeholders with a comprehensive understanding of the project's progress.
+Additionally, Lizyl is reviewing and refining previous report sections to reflect the latest updates and implementations. She examines each section and makes necessary edits to accurately portray the project's current status. Lizyl ensures the
+reports are up-to-date and provides stakeholders with a comprehensive understanding of the project's progress.
 
 ### Andrea Jans
 
@@ -133,7 +135,8 @@ In the future the TrackMyStuff! Application will:
 
 [Professional Portfolio](https://chenglisa.github.io/)
 
-## Lizyl Failano 
+## Lizyl Failano
+
 [Github](https://github.com/lizylf)
 
 [LinkedIn](https://www.linkedin.com/in/lizyl-failano-33aa29289/)
