@@ -65,17 +65,17 @@ const Landing = () => (
         <h2 style={{ color: '#100f0f', paddingTop: '20px' }}>Key Features</h2>
         <Row className="mt-3">
           <Col xs={12} md={4} className="text-center">
-            <img src="/images/add-inventory.png" alt="Add Inventory" className="img-fluid" />
+            <img src="/images/add-inventory1.png" alt="Add Inventory" className="img-fluid" />
             <h4>Add Inventory</h4>
             <p>Add new items to your inventory with ease.</p>
           </Col>
           <Col xs={12} md={4} className="text-center">
-            <img src="/images/edit-inventory.png" alt="Edit Inventory" className="img-fluid" />
+            <img src="/images/edit-inventory1.png" alt="Edit Inventory" className="img-fluid" />
             <h4>Edit Inventory</h4>
             <p>Edit existing inventory items quickly and efficiently.</p>
           </Col>
           <Col xs={12} md={4} className="text-center">
-            <img src="/images/view-inventory.png" alt="View Inventory" className="img-fluid" />
+            <img src="/images/view-inventory1.png" alt="View Inventory" className="img-fluid" />
             <h4>View Inventory</h4>
             <p>View your entire inventory at a glance.</p>
           </Col>
