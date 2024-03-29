@@ -3,6 +3,7 @@
 * [Summary](#summary)
 * [Phase One](#phase-one)
 * [Phase Two](#phase-two)
+* [Phase Three](#phase-three)
 * [Meet the Team](#meet-the-tracker-hackers-team)
 * [Materials Links](#links-to-our-materials)
 
@@ -124,6 +125,30 @@ In the future the TrackMyStuff! Application will:
 * Protect against injection attacks in forms
 * Protect against url hijacking in the routing
 * Include modifications for ease of use and appealing design
+
+# Phase Three
+
+In phase three of application development, the following improvements were made
+
+* Updated landing page
+
+## Work Breakdown by Team Member
+
+### Lisa Cheng
+
+add stuff here
+
+### Lizyl Failano
+
+add stuff here
+
+### Andrea Jans
+
+add stuff here
+
+### Sienne Rodwell
+
+add stuff here
 
 # Meet the Tracker Hackers Team
 
