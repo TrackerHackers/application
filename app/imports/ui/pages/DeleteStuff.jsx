@@ -8,6 +8,7 @@ import SimpleSchema2Bridge from 'uniforms-bridge-simple-schema-2';
 import { useParams, useNavigate } from 'react-router';
 import { Stuffs } from '../../api/stuff/Stuff';
 import LoadingSpinner from '../components/LoadingSpinner';
+import sanatize from '../../api/Sanatize';
 
 const bridge = new SimpleSchema2Bridge(Stuffs.schema);
 
@@ -24,7 +25,7 @@ const DeleteStuff = () => {
     // Determine if the subscription is ready
     const rdy = subscription.ready();
     // Get the document
-    const document = Stuffs.collection.findOne(_id);
+    const document = Stuffs.collection.findOne(sanatize(_id));
     return {
       doc: document,
       ready: rdy,
