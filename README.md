@@ -131,12 +131,18 @@ In the future the TrackMyStuff! Application will:
 In phase three of application development, the following improvements were made
 
 * Updated landing page
+* Protection against Injection Attacks
+* Fuzz Testing
+* Static Analysis
+* Dynamic Review 
 
 ## Work Breakdown by Team Member
 
 ### Lisa Cheng
 
-add stuff here
+Lisa worked to update the landing page of the application. She also worked to complete the Static Analysis in this phase, which may be viewed in the Application Document link below. 
+
+In the next phase, Lisa will continue to make UI improvements and monitor the weekly Snyk reports & make any security improvements as needed. 
 
 ### Lizyl Failano
 
@@ -148,7 +154,16 @@ add stuff here
 
 ### Sienne Rodwell
 
-add stuff here
+Sienne worked to complete Fuzz Testing in this phase. She also continued to monitor and provide any application support needs and improvements. She contributed to the ongoing process of reporting for this application (which may be viewed in the Application Document link below). 
+
+In the next phase, Sienne will continue to monitor any application support needs and implement improvements as necessary. 
+
+## Future Plans 
+
+In the future, the TrackMyStuff! application will: 
+* Have increased security features
+* Include more comprehensive testing documents and processes
+* Make UI improvements as necessary 
 
 # Meet the Tracker Hackers Team
 
