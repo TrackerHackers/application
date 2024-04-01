@@ -16,6 +16,7 @@ const bridge = new SimpleSchema2Bridge(Stuffs.schema);
 const DeleteStuff = () => {
   // Get the documentID from the URL field. See imports/ui/layouts/App.jsx for the route containing :_id.
   const { _id } = useParams();
+  const pid = sanatize(_id);
   const navigate = useNavigate();
   // console.log('EditStuff', _id);
   // useTracker connects Meteor data to React components. https://guide.meteor.com/react.html#using-withTracker
@@ -25,17 +26,17 @@ const DeleteStuff = () => {
     // Determine if the subscription is ready
     const rdy = subscription.ready();
     // Get the document
-    const document = Stuffs.collection.findOne(sanatize(_id));
+    const document = Stuffs.collection.findOne(pid);
     return {
       doc: document,
       ready: rdy,
     };
-  }, [_id]);
+  }, [pid]);
   // console.log('EditStuff', doc, ready);
   // On successful submit, insert the data.
   const submit = (data) => {
     const { name } = data;
-    Stuffs.collection.remove(_id, (error) => {
+    Stuffs.collection.remove(pid, (error) => {
       if (error) {
         swal('Error', error.message, 'error');
       } else {
