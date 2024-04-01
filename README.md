@@ -140,7 +140,9 @@ In phase three of application development, the following improvements were made
 
 ### Lisa Cheng
 
-add stuff here
+Lisa worked to update the landing page of the application. She also worked to complete the Static Analysis in this phase, which may be viewed in the Application Document link below. 
+
+In the next phase, Lisa will continue to make UI improvements and monitor the weekly Snyk reports & make any security improvements as needed. 
 
 ### Lizyl Failano
 
