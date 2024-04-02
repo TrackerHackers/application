@@ -150,7 +150,10 @@ add stuff here
 
 ### Andrea Jans
 
-add stuff here
+Andrea worked to implement injection attack protection in the application. She also verified that URL Hijacking was unlikely in the application through a combination of code review and testing.
+
+In the next phase, Andrea will continue to monitor the application for security vulnerabilities and implement improvements as necessary. She will also continue to add TestCafe tests to the application to ensure full code coverage.
+
 
 ### Sienne Rodwell
 
