@@ -8,7 +8,7 @@ import SimpleSchema2Bridge from 'uniforms-bridge-simple-schema-2';
 import { useParams, useNavigate } from 'react-router';
 import { Stuffs } from '../../api/stuff/Stuff';
 import LoadingSpinner from '../components/LoadingSpinner';
-import sanatize from '../../api/Sanatize';
+import sanitize from '../../api/Sanitize';
 
 const bridge = new SimpleSchema2Bridge(Stuffs.schema);
 
@@ -16,7 +16,7 @@ const bridge = new SimpleSchema2Bridge(Stuffs.schema);
 const DeleteStuff = () => {
   // Get the documentID from the URL field. See imports/ui/layouts/App.jsx for the route containing :_id.
   const { _id } = useParams();
-  const pid = sanatize(_id);
+  const pid = sanitize(_id);
   const navigate = useNavigate();
   // console.log('EditStuff', _id);
   // useTracker connects Meteor data to React components. https://guide.meteor.com/react.html#using-withTracker
