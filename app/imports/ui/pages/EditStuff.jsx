@@ -33,6 +33,8 @@ const EditStuff = () => {
     };
   }, [pid]);
   // console.log('EditStuff', doc, ready);
+  if (!doc) navigate('/notfound');
+
   // On successful submit, insert the data.
   const submit = (data) => {
     const { name, description, quantity, rating, notes, owner } = data;

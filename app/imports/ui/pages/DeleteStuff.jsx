@@ -33,6 +33,8 @@ const DeleteStuff = () => {
     };
   }, [pid]);
   // console.log('EditStuff', doc, ready);
+  if (!doc) navigate('/notfound');
+
   // On successful submit, insert the data.
   const submit = (data) => {
     const { name } = data;
