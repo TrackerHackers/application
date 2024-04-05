@@ -146,7 +146,9 @@ In the next phase, Lisa will continue to make UI improvements and monitor the we
 
 ### Lizyl Failano
 
-add stuff here
+Lizyl completed the Dynamic review of the documentation in this phase, which can be viewed in the Application Document link below.
+
+In the next phase, Lizyl will continue to monitor everyone's changes to ensure that the documentation report is up to date and make improvements as necessary.
 
 ### Andrea Jans
 
