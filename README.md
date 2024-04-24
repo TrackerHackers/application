@@ -191,7 +191,7 @@ add here
 
 ### Sienne Rodwell
 
-add here
+In this phase, Sienne handled creating the application release. Additionally, she made contributions to the README file. Notably, Sienne worked to create a comprehensive incident response plan for this application, which can be found in the "Release" section of the [Application Document](https://docs.google.com/document/d/1saC6QGrdUEQv1wSCf__P5w3YoyzN5x74XjpLNpQT2tU/edit?usp=sharing). 
 
 # Meet the Tracker Hackers Team
 
