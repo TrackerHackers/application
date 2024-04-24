@@ -173,7 +173,10 @@ In the future, the TrackMyStuff! application will:
 
 # Phase Four
 
-In phase four of application development, the following improvements were made
+In phase four of application development, the following improvements were made:
+* Continued to review and implement necessary security features
+* Included necessary testing documents and processes
+* Made UI improvements as necessary
 
 ## Work Breakdown by Team Member
 
@@ -187,7 +190,7 @@ add here
 
 ### Andrea Jans
 
-add here
+Andrea updated this README file with the new information in this phase. She also updated the [Application Document](https://docs.google.com/document/d/1saC6QGrdUEQv1wSCf__P5w3YoyzN5x74XjpLNpQT2tU/edit?usp=sharing) with the Certified Release and Archive report, which can be found in the "Release" section.
 
 ### Sienne Rodwell
 
