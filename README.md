@@ -168,7 +168,27 @@ In the next phase, Sienne will continue to monitor any application support needs
 In the future, the TrackMyStuff! application will: 
 * Have increased security features
 * Include more comprehensive testing documents and processes
-* Make UI improvements as necessary 
+* Make UI improvements as necessary
+
+# Phase Four
+
+## Work Breakdown by Team Member
+
+### Lisa Cheng
+
+add here
+
+### Lizyl Failano
+
+add here
+
+### Andrea Jans
+
+add here
+
+### Sienne Rodwell
+
+add here
 
 # Meet the Tracker Hackers Team
 
