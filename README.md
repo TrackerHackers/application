@@ -4,6 +4,7 @@
 * [Phase One](#phase-one)
 * [Phase Two](#phase-two)
 * [Phase Three](#phase-three)
+* [Phase Four](#phase-four)
 * [Meet the Team](#meet-the-tracker-hackers-team)
 * [Materials Links](#links-to-our-materials)
 
@@ -171,6 +172,8 @@ In the future, the TrackMyStuff! application will:
 * Make UI improvements as necessary
 
 # Phase Four
+
+In phase four of application development, the following improvements were made
 
 ## Work Breakdown by Team Member
 
