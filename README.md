@@ -124,7 +124,7 @@ In the future the TrackMyStuff! Application will:
 
 * Include more comprehensive testing documents and processes
 * Protect against injection attacks in forms
-* Protect against url hijacking in the routing
+* Protect against URL hijacking in the routing
 * Include modifications for ease of use and appealing design
 
 # Phase Three
@@ -141,9 +141,9 @@ In phase three of application development, the following improvements were made
 
 ### Lisa Cheng
 
-Lisa worked to update the landing page of the application. She also worked to complete the Static Analysis in this phase, which may be viewed in the Application Document link below. 
+Lisa worked to update the application landing page. She also worked to complete the Static Analysis in this phase, which may be viewed in the Application Document link below. 
 
-In the next phase, Lisa will continue to make UI improvements and monitor the weekly Snyk reports & make any security improvements as needed. 
+In the next phase, Lisa will continue to make UI improvements, monitor the weekly Snyk reports, and make any necessary security improvements. 
 
 ### Lizyl Failano
 
@@ -173,10 +173,7 @@ In the future, the TrackMyStuff! application will:
 
 # Phase Four
 
-In phase four of application development, the following improvements were made:
-* Continued to review and implement necessary security features
-* Included necessary testing documents and processes
-* Made UI improvements as necessary
+## Technical Notes
 
 ## Work Breakdown by Team Member
 
@@ -195,6 +192,15 @@ Andrea updated this README file with the new information in this phase. She also
 ### Sienne Rodwell
 
 In this phase, Sienne handled creating the application release. Additionally, she made contributions to the README file. Notably, Sienne worked to create a comprehensive incident response plan for this application, which can be found in the "Release" section of the [Application Document](https://docs.google.com/document/d/1saC6QGrdUEQv1wSCf__P5w3YoyzN5x74XjpLNpQT2tU/edit?usp=sharing). 
+
+## Closing Thoughts
+
+## Links
+
+* [Online Repository](https://github.com/TrackerHackers/application)
+* [Project Documentation]()
+* [Release Version 1.0.0](https://github.com/TrackerHackers/application/releases/tag/v.1.0.0)
+* [Wiki Page]()
 
 # Meet the Tracker Hackers Team
 
