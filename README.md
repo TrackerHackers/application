@@ -175,6 +175,8 @@ In the future, the TrackMyStuff! application will:
 
 ## Technical Notes
 
+Detailed technical notes can be found in the [Project Documentation](https://github.com/TrackerHackers/application/blob/main/index.md).
+
 ## Work Breakdown by Team Member
 
 ### Lisa Cheng
@@ -194,6 +196,8 @@ Andrea updated this README file with the new information in this phase. She also
 In this phase, Sienne handled creating the application release. Additionally, she made contributions to the README file. Notably, Sienne worked to create a comprehensive incident response plan for this application, which can be found in the "Release" section of the [Application Document](https://docs.google.com/document/d/1saC6QGrdUEQv1wSCf__P5w3YoyzN5x74XjpLNpQT2tU/edit?usp=sharing). 
 
 ## Closing Thoughts
+
+Reading the documentation for [Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) and [Meteor.js](https://www.meteor.com/learn) was fundamental in learning how to build the application. Reading the documentation on securing the [Node.js](https://nodejs.org/en/learn/getting-started/security-best-practices) and [Meteor.js](https://guide.meteor.com/security) frameworks was more important. In these documents, we found instructions on how to guard against injection attacks. Surprisingly, Node.js did not already guard against injection attacks when parsing GET and POST data.
 
 ## Links
 
