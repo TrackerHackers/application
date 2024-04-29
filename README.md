@@ -181,7 +181,7 @@ Detailed technical notes can be found in the [Project Documentation](https://git
 
 ### Lisa Cheng
 
-In this phase, Lisa created the Wiki Page, which includes a user guide of how to use the web application. The Wiki Page can be found [here](https://github.com/TrackerHackers/application/wiki). She also made contributiosn to the README file. 
+In this phase, Lisa created the Wiki Page, which includes a user guide of how to use the web application. The Wiki Page can be found [here](https://github.com/TrackerHackers/application/wiki). She also made contributions to the README file. 
 
 ### Lizyl Failano
 
