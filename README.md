@@ -185,7 +185,7 @@ add here
 
 ### Lizyl Failano
 
-add here
+During this phase, Lizyl took charge of conducting the final security review and also made significant contributions to the README file. Particularly, Lizyl documented her insights in the "Final Security Review" section, which is accessible in the [Application Document](https://docs.google.com/document/d/1saC6QGrdUEQv1wSCf__P5w3YoyzN5x74XjpLNpQT2tU/edit?usp=sharing).
 
 ### Andrea Jans
 
